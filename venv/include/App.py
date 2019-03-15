@@ -1,5 +1,5 @@
 import json
-from trafficanalyzer import *
+from trafficanalyzer import TrafficAnalyzer
 
 
 # SAX Traffic 100 Gigabit Ethernet 4/1
@@ -10,7 +10,7 @@ from trafficanalyzer import *
 all_traffic = TrafficAnalyzer('SAX', '70338', '70416')
 
 # Merged traffic as a json object
-traffic1 = list()
+# traffic1 = list()
 traffic1 = all_traffic.traffic_on_json()
 # print()
 # print()
