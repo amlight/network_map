@@ -1,5 +1,5 @@
 from pyzabbix import ZabbixAPI
-from zabbix import *
+from zabbix import Zabbix
 import time
 import json
 from datetime import datetime
